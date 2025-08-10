@@ -1,0 +1,32 @@
+{
+  "name": "gpt5-api-autogen",
+  "version": "1.0.0",
+  "description": "CLI para generar APIs REST (Express o Flask) con CRUD, JWT, SQLite/Postgres, tests y README",
+  "bin": {
+    "gpt5-api-autogen": "bin/cli.js"
+  },
+  "type": "commonjs",
+  "main": "bin/cli.js",
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "keywords": [
+    "api",
+    "generator",
+    "express",
+    "flask",
+    "sequelize",
+    "sqlalchemy",
+    "jwt",
+    "sqlite",
+    "postgres"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.6"
+  }
+}
+
+

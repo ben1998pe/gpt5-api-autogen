@@ -1,0 +1,28 @@
+# Node
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Env
+.env
+**/.env
+
+# Python
+.venv/
+**/.venv/
+__pycache__/
+
+# Coverage
+coverage/
+**/coverage/
+
+# OS
+.DS_Store
+
+# Databases
+*.sqlite
+**/*.sqlite
+
+# Jest reports
+jest-html-reporters-*
